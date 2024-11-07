@@ -1,6 +1,6 @@
 {
-  "name": "Scrim-s04sl18",
-  "description": "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0122",
+  "name": "Scrim-s0t2q9f5f9",
+  "description": "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0124",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -11,6 +11,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.4.3",
+    "miragejs": "0.1.46",
     "vite": "latest"
   },
   "devDependencies": {
