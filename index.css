@@ -143,3 +143,69 @@ header a:hover {
     color: white;
     border-radius: 10px;
 }
+
+/* Vans header */
+.vans-header > h2 {
+    padding-left: 1em;
+}
+
+/* Filters div */
+.filters-div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 1.5em;
+    gap: 3em;
+}
+
+.filters-div > button {
+    border: none;
+    border-radius: 5px;
+    background-color: #FFEAD2;
+    color: #4D4D4D;
+    cursor: pointer;
+    padding: .75em 1.5em;
+}
+
+.filters-div > h3 {
+    color: #4D4D4D;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* Van div */
+.van-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.van-item {
+    padding: 2em .5em 0 1.5em;
+}
+
+.van-item > img {
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+/* Van types classes */
+.van-item > button {
+    color: white;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.simple {
+    background-color: #E17654;
+}
+
+.rugged {
+    background-color: #115E59;
+}
+
+.luxury {
+    background-color: #161616;
+}
