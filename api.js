@@ -1,4 +1,4 @@
-import { initializeApp } from "firebase/app"
+import { initializeApp } from "firebase/app";
 import {
     getFirestore,
     collection,
@@ -10,15 +10,15 @@ import {
 } from "firebase/firestore/lite"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBjgA6DvGCziSdiPsGLhQgU0u_Cu_Bu2hk",
-    authDomain: "vanlife-a1af5.firebaseapp.com",
-    projectId: "vanlife-a1af5",
-    storageBucket: "vanlife-a1af5.appspot.com",
-    messagingSenderId: "803007000356",
-    appId: "1:803007000356:web:446cd3a1ca406839258db1"
+  apiKey: "AIzaSyBjgA6DvGCziSdiPsGLhQgU0u_Cu_Bu2hk",
+  authDomain: "vanlife-f463a.firebaseapp.com",
+  projectId: "vanlife-f463a",
+  storageBucket: "vanlife-f463a.firebasestorage.app",
+  messagingSenderId: "252691451153",
+  appId: "1:252691451153:web:6a4e73d17cd8aa630b50b0"
 };
 
-const app = initializeApp(firebaseConfig)
+const app = initializeApp(firebaseConfig);
 const db = getFirestore(app)
 
 // Refactoring the fetching functions below
